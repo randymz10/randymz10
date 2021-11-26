@@ -15,7 +15,7 @@
 <a href="https://discord.gg/randymz10#5552" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/discord.svg" alt="randymz10#5552" height="30" width="40" /></a>
 </p>
 
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=randymz10&show_icons=true&locale=en&layout=compact" alt="randymz10" /></p>
+<p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=randymz10&show_icons=true&locale=en&layout=compact" alt="randymz10" /></p>
 
-<p>&nbsp;<img align="right" src="https://github-readme-stats.vercel.app/api?username=randymz10&show_icons=true&theme=dracula&locale=en" alt="randymz10" /></p>
+
 
