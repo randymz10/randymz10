@@ -1,9 +1,3 @@
-<style>
-  h1{
-  color: red;
-  }
-</style>
-
 <h1 align="center">Hi 👋, I'm Randy</h1>
 <h3 align="center">A Java developer Student from Venezuela. I living in Brasil and working in Atos as bilingual support technician at Atos Brasil.</h3>
 
