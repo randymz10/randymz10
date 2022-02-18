@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Randy</h1>
 <h3 align="center">A Java developer Student from Venezuela. I living in Brasil and working as bilingual support technician at Atos Brasil.</h3>
 
-- 🌱 I’m currently learning **Java, Javascript, HTML5, CSS3.**
+- 🌱 I’m currently learning **HTML5, CSS3, Javascript and Java.**
 
 - 👨‍💻 All of my projects are available at [https://github.com/randymz10](https://github.com/randymz10)
 
