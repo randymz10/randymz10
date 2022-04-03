@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Randy</h1>
-<h3 align="center">A Java developer Student from Venezuela. I living in Brasil and working as bilingual support technician at Atos Brasil.</h3>
+<h3 align="center">A Java developer student from Venezuela. I living in Brasil and working as customer service.</h3>
 
 - 🌱 I’m currently learning **HTML5, CSS3, Javascript and Java.**
 
