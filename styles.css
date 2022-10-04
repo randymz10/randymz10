@@ -1,0 +1,51 @@
+:root {
+    --green: #198754;
+    --green-shadow-inset:#0a3622;
+}
+
+
+.link:hover{
+    background-color: var(--green);
+    box-shadow: 0 0 5px var(--green-shadow-inset) inset;
+    transition: 300ms;
+}
+
+.title{
+    animation: showTitle 600ms linear;
+}
+
+@keyframes showTitle {
+    from{
+        transform: translateX(-100%);
+    }
+    to{
+        transform: translateX(0%);
+    }
+}
+
+.image{
+    animation: showImage 1s linear;
+}
+
+@keyframes showImage {
+    from{
+        transform: translateY(200%);
+    }
+    to{
+        transform: translateY(0%);
+    }
+    
+}
+
+.navbar{
+    animation: showNavbar 800ms linear;
+}
+
+@keyframes showNavbar {
+    from{
+        transform: translateX(100%);
+    }
+    to{
+        transform: translateX(0%);
+    }
+}
