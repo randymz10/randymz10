@@ -1,6 +1,7 @@
 :root {
     --green: #198754;
     --green-shadow-inset:#0a3622;
+    --bg-about-me: rgba(33,37,41, 0.5);
 }
 
 
@@ -23,7 +24,7 @@
     }
 }
 
-.image{
+.imagen{
     animation: showImage 1s linear;
 }
 
@@ -47,5 +48,21 @@
     }
     to{
         transform: translateX(0%);
+    }
+}
+
+#about-me img{
+width: 150px;
+}
+
+/*Responsive*/
+
+@media (max-width: 767px ) {
+    .imagen{
+        display: none !important;
+    }
+    
+    .title{
+        text-align: center;
     }
 }
