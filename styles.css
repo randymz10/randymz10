@@ -1,68 +1,95 @@
 :root {
     --green: #198754;
-    --green-shadow-inset:#0a3622;
-    --bg-about-me: rgba(33,37,41, 0.5);
+    --green-shadow-inset: #0a3622;
+    --bg-about-me: rgba(17, 18, 19, 0.3);
+    --light-shadow: #ddd;
+    --bg-subtitle: #1C1D1E;
 }
 
+/*Home*/
 
-.link:hover{
+.link:hover {
     background-color: var(--green);
     box-shadow: 0 0 5px var(--green-shadow-inset) inset;
     transition: 300ms;
 }
 
-.title{
+.title {
     animation: showTitle 600ms linear;
 }
 
 @keyframes showTitle {
-    from{
+    from {
         transform: translateX(-100%);
     }
-    to{
+
+    to {
         transform: translateX(0%);
     }
 }
 
-.imagen{
+.imagen {
     animation: showImage 1s linear;
 }
 
 @keyframes showImage {
-    from{
+    from {
         transform: translateY(200%);
     }
-    to{
+
+    to {
         transform: translateY(0%);
     }
-    
+
 }
 
-.navbar{
+.navbar {
     animation: showNavbar 800ms linear;
 }
 
 @keyframes showNavbar {
-    from{
+    from {
         transform: translateX(100%);
     }
-    to{
+
+    to {
         transform: translateX(0%);
     }
 }
 
-#about-me img{
-width: 150px;
+/*About me*/
+
+.img {
+    width: 35% !important;
+}
+
+.description {
+    text-align: justify;
+}
+
+.subtitle{
+    background-color: var(--green);
+    box-shadow: -3px 3px 0px var(--light-shadow);
+}
+
+.bg {
+ background-color: var(--bg-about-me) ;
+}
+
+/*Skills*/
+
+.skill-icon{
+    font-size: 4rem;
 }
 
 /*Responsive*/
 
-@media (max-width: 767px ) {
-    .imagen{
+@media (max-width: 767px) {
+    .imagen {
         display: none !important;
     }
-    
-    .title{
+
+    .title {
         text-align: center;
     }
 }
