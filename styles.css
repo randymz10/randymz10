@@ -4,6 +4,16 @@
     --bg-about-me: rgba(17, 18, 19, 0.3);
     --light-shadow: #ddd;
     --bg-subtitle: #1C1D1E;
+    --html5: #e44d26;
+    --css3: #2465f1;
+    --js: #f0db4f;
+    --bootstrap: #7911f7;
+    --angular: #dd0031;
+    --java: #dc232b;
+    --aws: #eb911a;
+    --mysql: #006f88;
+    --spring-boot: #66aa3b;
+    --git: #e44c30;
 }
 
 /*Home*/
@@ -67,19 +77,69 @@
     text-align: justify;
 }
 
-.subtitle{
+.subtitle {
     background-color: var(--green);
     box-shadow: -3px 3px 0px var(--light-shadow);
 }
 
 .bg {
- background-color: var(--bg-about-me) ;
+    background-color: var(--bg-about-me);
 }
 
 /*Skills*/
 
-.skill-icon{
+.skill-icon {
     font-size: 4rem;
+}
+
+.html5:hover {
+    color: var(--html5);
+    transition: 300ms all;
+}
+
+.css3:hover {
+    color: var(--css3);
+    transition: 300ms all;
+}
+
+.js:hover {
+    color: var(--js);
+    transition: 300ms all;
+}
+
+.bootstrap:hover {
+    color: var(--bootstrap);
+    transition: 300ms all;
+}
+
+.angular:hover {
+    color: var(--angular);
+    transition: 300ms all;
+}
+
+.java:hover {
+    color: var(--java);
+    transition: 300ms all;
+}
+
+.aws:hover {
+    color: var(--aws); 
+    transition: 300ms all;
+}
+
+.mysql:hover {
+    color: var(--mysql);
+    transition: 300ms all;
+}
+
+.spring-boot:hover {
+    color: var(--spring-boot);
+    transition: 300ms all;
+}
+
+.git:hover {
+    color: #e44c30;
+    transition: 300ms all;
 }
 
 /*Responsive*/
@@ -91,5 +151,10 @@
 
     .title {
         text-align: center;
+    }
+
+    .about-skills {
+        display: block;
+        width: 90%;
     }
 }
