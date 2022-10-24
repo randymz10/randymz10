@@ -12,7 +12,7 @@
     integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
   <!--Style-->
-  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="src/css/styles.css" />
 
   <title>Randy Muñoz Full-Stack Developer</title>
 </head>
@@ -58,7 +58,7 @@
       <!--End title-->
       <!--Image-->
       <div class="imagen col d-flex flex-column justify-content-center h-75">
-        <img class="img-fluid" src="img/undraw_freelancer_re_irh4.svg" alt="Developer" />
+        <img class="img-fluid" src="src/assets/img/undraw_freelancer_re_irh4.svg" alt="Developer" />
       </div>
       <!--End Image-->
     </section>
@@ -68,12 +68,12 @@
       <div class="element col m-4 p-4 bg rounded shadow">
         <h2 class="fs-3 text-center"><span class="subtitle pe-2 ps-2 rounded">About me</span></h2>
         <picture class="d-flex flex-column align-items-center">
-          <img class="img m-3" src="img/photo.png" alt="Randy">
+          <img class="img m-3" src="src/assets/img/photo.png" alt="Randy">
           <figcaption class="mt-1">
             <h5>Randy Ricardo Muñoz Viñoles</h5>
           </figcaption>
         </picture>
-        <div class="description mt-2 tex">
+        <div class="description mt-2">
           <p>Hello! I'm Randy Muñoz, a Full-Stack developer based in Londrina/PR, Brazil.</p>
           <p>I am currently starting my developer career at TATA Consultancy Services as trainee. In my spare time I
             enjoy spending time with my wife, watching series and movies, playing video games, and working on my own
@@ -150,47 +150,57 @@
     <section class="row">
 
       <div class="col m-4 p-4 bg rounded shadow">
-        <h2 class="fs-3 text-center"><span class="subtitle pe-2 ps-2rounded">Projects</span></h2>
+        <h2 class="fs-3 text-center"><span class="subtitle pe-2 ps-2 rounded">Projects</span></h2>
 
         <!--Cards-->
 
         <div class="row row-cols-1 row-cols-md-3 g-4 m-2">
           <div class="col">
             <div class="card bg-dark h-100">
-              <img src="https://via.placeholder.com/100" class="card-img-top" alt="...">
+              <img src="src/assets/img/blackjack.png" class="card-img-top" alt="Black Jack game">
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <h5 class="card-title">Blackjack</h5>
+                <p class="card-text text-aligned">Game blackjack developed in the course "JavaScript Moderno: Guia para dominar el lenguaje" of Fernando Herrera in Udemy</p>
+                <span class="badge text-bg-success">Javascript</span>
+                <span class="badge text-bg-success">HTML5</span>
+                <span class="badge text-bg-success">CSS3</span>
+                <span class="badge text-bg-success">Bootstrap</span>
               </div>
               <div class="card-footer">
-                <a href="#" target="_blank" class="btn btn-sm btn-success m-1">Repository</a>
-                <a href="#" target="_blank" class="btn btn-sm btn-secondary m-1">Demo</a>
+                <a href="https://github.com/randymz10/blackjack" target="_blank" class="btn btn-sm btn-success m-1">Repository</a>
+                <a href="https://randymz10.github.io/blackjack/" target="_blank" class="btn btn-sm btn-secondary m-1">Demo</a>
               </div>
             </div>
           </div>
           <div class="col">
             <div class="card bg-dark h-100">
-              <img src="https://via.placeholder.com/100" class="card-img-top" alt="...">
+              <img src="src/assets/img/todo.png" class="card-img-top" alt="...">
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                <h5 class="card-title">To do list</h5>
+                <p class="card-text text-aligned">To do list developed as laboratory in the course "JavaScript Moderno: Guia para dominar el lenguaje" of Fernando Herrera in Udemy</p>
+                <span class="badge text-bg-success">Javascript</span>
+                <span class="badge text-bg-success">Webpack</span>
               </div>
               <div class="card-footer">
-                <a href="#" target="_blank" class="btn btn-sm btn-success m-1">Repository</a>
-                <a href="#" target="_blank" class="btn btn-sm btn-secondary m-1">Demo</a>
+                <a href="https://github.com/randymz10/todo-fh" target="_blank" class="btn btn-sm btn-success m-1">Repository</a>
+                <a href="https://randymz10.github.io/todo-fh/" target="_blank" class="btn btn-sm btn-secondary m-1">Demo</a>
               </div>
             </div>
           </div>
           <div class="col">
             <div class="card bg-dark h-100">
-              <img src="https://via.placeholder.com/100" class="card-img-top" alt="...">
+              <img src="https://via.placeholder.com/50x25" class="card-img-top" alt="...">
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                <h5 class="card-title">Notes App</h5>
+                <p class="card-text text-aligned">Notes app made with MySQL, Spring Boot and Angular developed for a selective process as a Trainee Software Engineer</p>
+                <span class="badge text-bg-success">Angular</span>
+                <span class="badge text-bg-success">Bootstrap</span>
+                <span class="badge text-bg-success">Spring boot</span>
+                <span class="badge text-bg-success">MySQL</span>
               </div>
               <div class="card-footer">
-                <a href="#" target="_blank" class="btn btn-sm btn-success m-1">Repository</a>
-                <a href="#" target="_blank" class="btn btn-sm btn-secondary m-1">Demo</a>
+                <a href="https://github.com/randymz10/notes-app" target="_blank" class="btn btn-sm btn-success m-1">Repository</a>
+                <button class="btn btn-sm btn-secondary m-1" disabled>Demo</button>
               </div>
             </div>
           </div>
@@ -199,45 +209,66 @@
         <div class="row row-cols-1 row-cols-md-3 g-4 m-2">
           <div class="col">
             <div class="card bg-dark h-100">
-              <img src="https://via.placeholder.com/100" class="card-img-top" alt="...">
+              <img src="src/assets/img/crudAtosUfn.png" class="card-img-top" alt="Person management">
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <h5 class="card-title">Person management CRUD</h5>
+                <p class="card-text text-aligned">Final project of the fullstack course (Java + Angular) with Atos in collaboration with the UFN faculty</p>
+                <span class="badge text-bg-success">Angular</span>
+                <span class="badge text-bg-success">Bootstrap</span>
+                <span class="badge text-bg-success">Spring boot</span>
+                <span class="badge text-bg-success">MySQL</span>
               </div>
               <div class="card-footer">
-                <a href="#" target="_blank" class="btn btn-sm btn-success m-1">Repository</a>
-                <a href="#" target="_blank" class="btn btn-sm btn-secondary m-1">Demo</a>
+                <a href="https://github.com/randymz10/projetoAtosUFN" target="_blank" class="btn btn-sm btn-success m-1">Repository</a>
+                <button class="btn btn-sm btn-secondary m-1" disabled>Demo</button>
               </div>
             </div>
           </div>
           <div class="col">
             <div class="card bg-dark h-100">
-              <img src="https://via.placeholder.com/100" class="card-img-top" alt="...">
+              <img src="src/assets/img/controlClientes.png" class="card-img-top" alt="Clients control">
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                <h5 class="card-title">Clients control</h5>
+                <p class="card-text text-aligned">Laboratory of module JSPs of the course "Universidad Java" with the Ing. Ubaldo Acosta</p>
+                <span class="badge text-bg-success">Java</span>
+                <span class="badge text-bg-success">Servlet</span>
+                <span class="badge text-bg-success">JSP</span>
+                <span class="badge text-bg-success">JDBC</span>
+                <span class="badge text-bg-success">HTML5</span>
+                <span class="badge text-bg-success">CSS3</span>
+                <span class="badge text-bg-success">Bootstrap</span>
+                <span class="badge text-bg-success">MySQL</span>
               </div>
               <div class="card-footer">
-                <a href="#" target="_blank" class="btn btn-sm btn-success m-1">Repository</a>
-                <a href="#" target="_blank" class="btn btn-sm btn-secondary m-1">Demo</a>
+                <a href="https://github.com/randymz10/control_clientes" target="_blank" class="btn btn-sm btn-success m-1">Repository</a>
+                <button class="btn btn-sm btn-secondary m-1" disabled>Demo</button>
               </div>
             </div>
           </div>
           <div class="col">
             <div class="card bg-dark h-100">
-              <img src="https://via.placeholder.com/100" class="card-img-top" alt="...">
+              <img src="src/assets/img/budget-app.png" class="card-img-top" alt="...">
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                <h5 class="card-title">Budget App</h5>
+                <p class="card-text text-aligned">Budget app created as final laboratory of the course "Universidad Javascript" with the Ing Ubaldo Acosta.</p>
+                <span class="badge text-bg-success">Javascript</span>
+                <span class="badge text-bg-success">HTML5</span>
+                <span class="badge text-bg-success">CSS3</span>
+                <span class="badge text-bg-success">Bootstrap</span>
               </div>
               <div class="card-footer">
-                <a href="#" target="_blank" class="btn btn-sm btn-success m-1">Repository</a>
-                <a href="#" target="_blank" class="btn btn-sm btn-secondary m-1">Demo</a>
+                <a href="https://github.com/randymz10/budget-app" target="_blank" class="btn btn-sm btn-success m-1">Repository</a>
+                <a href="https://randymz10.github.io/budget-app/" target="_blank" class="btn btn-sm btn-secondary m-1">Demo</a>
               </div>
             </div>
           </div>
         </div>
 
+        <!--End cards-->
+        <div class="container text-center mt-4">
+          <p class="fw-semibold">For to see all my projects visit my github profile here:</p>
+          <a href="https://github.com/randymz10" class="btn btn-light fw-semibold" target="_blank"><i class="fa-brands fa-github-alt"></i> GitHub</a>
+        </div>
 
       </div>
     </section>

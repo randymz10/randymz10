@@ -142,6 +142,16 @@
     transition: 300ms all;
 }
 
+/*Cards*/
+
+.text-aligned {
+    text-align: justify;
+}
+
+/*.badge{
+    box-shadow: -2px 2px 0px var(--light-shadow);
+}*/
+
 /*Responsive*/
 
 @media (max-width: 767px) {
