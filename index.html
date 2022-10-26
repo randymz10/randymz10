@@ -23,7 +23,7 @@
     <!--Home-->
     <section id="home" class="row vh-100">
       <!--Navbar-->
-      <nav class="navbar navbar-expand-sm">
+      <nav class="navbar navbar-dark navbar-expand-sm">
         <div class="container-fluid">
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -35,7 +35,7 @@
               <a href="#about-me" class="link text-light fw-semibold nav-link ps-2 pe-2">About me</a>
               <a href="#skills" class="link text-light fw-semibold nav-link ps-2 pe-2">Skills</a>
               <a href="#projects" class="link text-light fw-semibold nav-link ps-2 pe-2">Projects</a>
-              <a href="#" class="link text-light fw-semibold nav-link ps-2 pe-2">Contact me</a>
+              <a href="#contact" class="link text-light fw-semibold nav-link ps-2 pe-2">Contact me</a>
             </div>
           </div>
         </div>
@@ -51,7 +51,7 @@
           <a href="https://bit.ly/3Cov8RX" target="_blank" class="btn btn-success m-2 fw-semibold">
             Resume
           </a>
-          <button type="button" class="btn btn-secondary m-2 fw-semibold">Contact me!</button>
+          <a href="#contact" class="btn btn-secondary m-2 fw-semibold">Contact me!</a>
         </div>
         <!--End Buttons-->
       </div>
@@ -289,25 +289,39 @@
       </div>
     </section>
 
-    <footer class="" id="contact">
+  </div>
+  <footer id="contact" class="bg text-center" id="contact">
+    <!-- Button trigger modal -->
+    <div class="container-fluid p-3">
 
-      <!-- Button trigger modal -->
-      <a href="#message" data-bs-toggle="modal" data-bs-target="#message"><i class="fa-solid fa-envelope"></i></a>
-      <a href="#"><i class="fa-brands fa-instagram"></i></a>
-      <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-      <a href="#"><i class="fa-brands fa-github"></i></a>
-      <a href="#"><i class="fa-brands fa-discord"></i></a>
-      <a href="#"><i class="fa-brands fa-telegram"></i></a>
-      <a href="#"><i class="fa-solid fa-paper-plane"></i></a>
-
+      <h6>Contact me in my social media</h6>
+      <div class="d-inline-flex flex-column m-1">
+        <a href="#message" data-bs-toggle="modal" data-bs-target="#message"><i
+            class="social-media fa-solid fa-envelope"></i></a>
+      </div>
+      <div class="d-inline-flex flex-column m-1">
+        <a href="https://www.instagram.com/randymz10/" target="_blank"><i class="social-media fa-brands fa-instagram"></i></a>
+      </div>
+      <div class="d-inline-flex flex-column m-1">
+        <a href="https://www.linkedin.com/in/randymz10/" target="_blank"><i class="social-media fa-brands fa-linkedin"></i></a>
+      </div>
+      <div class="d-inline-flex flex-column m-1">
+        <a href="https://github.com/randymz10" target="_blank"><i class="social-media fa-brands fa-github"></i></a>
+      </div>
+      <div class="d-inline-flex flex-column m-1">
+        <a href="https://discord.gg/QJFU6S4DxZ" target="_blank"><i class="social-media fa-brands fa-discord"></i></a>
+      </div>
+      <div class="d-inline-flex flex-column m-1">
+        <a href="https://t.me/randymz10" target="_blank"><i class="social-media fa-brands fa-telegram"></i></a>
+      </div>
+  
       <!-- Modal -->
-      <div class="modal fade" id="message" tabindex="-1" aria-labelledby="sentMessage" aria-hidden="true">
+      <div class="modal fade " id="message" tabindex="-1" aria-labelledby="sentMessage" aria-hidden="true">
         <div class="modal-dialog">
-          <div class="modal-content text-dark">
+          <div class="modal-content text-dark text-start">
             <div class="modal-header">
               <h3 class="modal-title fs-5" id="sentMessage">Sent me a message</h3>
-              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
-                aria-label="Close"></button>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
               <div class="row">
@@ -338,17 +352,15 @@
                 </div>
               </div>
             </div>
-
+  
           </div>
         </div>
       </div>
+  
+    </div>
+    <div>Randy Muñoz 2022 &copy; All rights reserved </div>
 
-
-
-
-
-    </footer>
-  </div>
+  </footer>
 
 
 

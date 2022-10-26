@@ -152,6 +152,16 @@
     box-shadow: -2px 2px 0px var(--light-shadow);
 }*/
 
+/*Footer*/
+.social-media{
+    font-size: 2rem;
+    color: #f8f9fa;
+}
+
+.social-media:hover{
+    color: #B2B8BD;
+}
+
 /*Responsive*/
 
 @media (max-width: 767px) {
