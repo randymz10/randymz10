@@ -329,23 +329,23 @@
                   <form name="forms-contac" netlify>
                     <div class="mb-3">
                       <label for="name" class="form-label">Name</label>
-                      <input type="text" class="form-control" id="name" placeholder="Your name">
+                      <input type="text" class="form-control" id="name" placeholder="Your name" required>
                     </div>
                     <div class="mb-3">
                       <label for="issue" class="form-label">Subject</label>
-                      <input type="text" class="form-control" id="issue" placeholder="Subject">
+                      <input type="text" class="form-control" id="issue" placeholder="Subject" required>
                     </div>
                     <div class="mb-3">
                       <label for="email" class="form-label">Email address</label>
-                      <input type="email" class="form-control" id="email" placeholder="example@example.com">
+                      <input type="email" class="form-control" id="email" placeholder="example@example.com" required>
                     </div>
                     <div class="mb-3">
                       <label for="bodyEmail" class="form-label">Message</label>
                       <textarea class="form-control" id="bodyEmail" rows="5"
-                        placeholder="Write your message here..."></textarea>
+                        placeholder="Write your message here..." required></textarea>
                     </div>
                     <div class="modal-footer">
-                      <button class="btn btn-success" type="submit">Sent</button>
+                      <input type="submit" value="Sent" class="btn btn-success">
                       <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                     </div>
                   </form>
