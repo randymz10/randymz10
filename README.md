@@ -3,7 +3,7 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=randymz10&label=Profile%20views&color=0e75b6&style=flat-square" alt="randymz10" /> </p>
 
-- 🌱 I’m currently learning **Java, Spring, AWS, SQL, JavaScript, Angular**
+- 🌱 I’m currently learning **Mendix, Java, Spring, AWS, SQL, JavaScript, Angular**
 
 - 👨‍💻 All of my projects are available at [https://github.com/randymz10](https://github.com/randymz10)
 
