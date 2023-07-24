@@ -1,9 +1,9 @@
 <h1 align="center">Hi 👋, I'm Randy Muñoz</h1>
-<h3 align="center">A passionate backend developer from Venezuela</h3>
+<h3 align="center">A passionate web developer from Venezuela</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=randymz10&label=Profile%20views&color=0e75b6&style=flat-square" alt="randymz10" /> </p>
 
-- 🌱 I’m currently learning **Mendix, Java, Spring, AWS, SQL, JavaScript, Angular**
+- 🌱 I’m currently learning **Mendix and React**
 
 - 👨‍💻 All of my projects are available at [https://github.com/randymz10](https://github.com/randymz10)
 
